@@ -41,6 +41,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.devpost_username -%}
+          <li>
+            <a target="_blank" href="https://devpost.com/{{ site.devpost_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-dev" title="Devpost link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.instagram_username -%}
           <li>
             <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -73,13 +80,6 @@
           <li>
             <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-twitter" title="Twitter link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.devpost_username -%}
-          <li>
-            <a target="_blank" href="https://devpost.com/{{ site.devpost_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-dev" title="Devpost link"></i>
             </a>
           </li>
         {%- endif -%}
