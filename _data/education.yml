@@ -1,9 +1,29 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+  name: École polytechnique fédérale de Lausanne
+  dates: September 2019 - February 2020
+  #qualification: Qualifications (eg. BA Performing Arts)
   quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    Exchange project (30 ECTS) in Computer Vision applied to Medical Image Analysis
+  #description: | # this will include new lines to allow paragraphs
+    #Description of qualification
+
+
+- layout: left
+  name: Universitat de Barcelona
+  dates: September 2014 - February 2020
+  #qualification: Qualifications (eg. BA Performing Arts)
+  quote: >
+    Bachelor's degree in Computer Science
+  #description: | # this will include new lines to allow paragraphs
+    #Description of qualification
+
+
+- layout: left
+  name: Universitat de Barcelona
+  dates: September 2014 - February 2020
+  #qualification: Qualifications (eg. BA Performing Arts)
+  quote: >
+    Bachelor's degree in Mathematics
+  #description: | # this will include new lines to allow paragraphs
+    #Description of qualification

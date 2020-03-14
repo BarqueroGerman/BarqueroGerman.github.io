@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 name: German Barquero
 title: Your job title
 email: barquerogerman@gmail.com
-phone: +34 676 28 16 28
+#phone: +34 676 28 16 28
 #website: Your website (eg. https://google.com)(optional)
 
 darkmode: false
@@ -19,7 +19,7 @@ github_username:  barquerogerman
 #facebook_username: jekyll
 #flickr_username: jekyll
 #instagram_username: jekyll
-linkedin_username: barquerogerman
+linkedin_username: germán-barquero-garcía-731b96b4
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
