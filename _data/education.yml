@@ -2,28 +2,25 @@
 - layout: left
   name: École polytechnique fédérale de Lausanne
   dates: September 2019 - February 2020
-  #qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Exchange project (30 ECTS) in Computer Vision applied to Medical Image Analysis
-  #description: | # this will include new lines to allow paragraphs
-    #Description of qualification
+  qualification: Exchange project (30 ECTS) in Computer Vision applied to Medical Image Analysis
+  quote: Blah
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
 
 
 - layout: left
   name: Universitat de Barcelona
   dates: September 2014 - February 2020
-  #qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Bachelor's degree in Computer Science
-  #description: | # this will include new lines to allow paragraphs
-    #Description of qualification
+  qualification: Bachelor's degree in Computer Science
+  #quote: 
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
 
 
 - layout: left
   name: Universitat de Barcelona
   dates: September 2014 - February 2020
-  #qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Bachelor's degree in Mathematics
-  #description: | # this will include new lines to allow paragraphs
-    #Description of qualification
+  qualification: Bachelor's degree in Mathematics
+  #quote: 
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
