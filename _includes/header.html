@@ -76,6 +76,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.devpost_username -%}
+          <li>
+            <a target="_blank" href="https://devpost.com/{{ site.devpost_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-dev" title="Devpost link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.youtube_username -%}
           <li>
             <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
