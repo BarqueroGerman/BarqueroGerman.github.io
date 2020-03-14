@@ -11,13 +11,13 @@
 
 - layout: left
   company: Herta Security
-  link: https://www.hertasecurity.com/en
+  link: hertasecurity.com
   job_title: Undergraduate Research Intern
   dates: June 2019 - September 2020
   quote: >
-   Short description of the company (optional)
+   Herta Security is a world leader in the development of cutting edge facial recognition solutions. Based in Barcelona, Spain, – with offices in Madrid and London -, the company offers fast, accurate, robust, end-customer oriented solutions for video surveillance, access control, and marketing requirements. International projects include safe-cities, airports, train and metro stations, prisons, banks, casinos, sports stadiums, shopping malls, military, police and forensic applications. Herta Security has partners in 25 countries.
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Description of role Description of role Description of role Description of role Description of role Description of role Description of role Description of role Description of role Description of role Description of role Description of role
 
 - layout: left
   company: Universitat de Barcelona
@@ -31,7 +31,7 @@
 
 - layout: left
   company: Getupcode.com
-  #link: Link to company (optional)
+  link: Link to company (optional)
   job_title: Junior Full Stack Developer
   dates: July 2015 - Jun 2016 (1 year)
   quote: >
