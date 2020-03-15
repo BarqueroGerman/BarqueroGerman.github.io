@@ -17,12 +17,3 @@
    Herta Security is a world leader in the development of cutting edge facial recognition solutions. Based in Barcelona, Spain, – with offices in Madrid and London -, the company offers fast, accurate, robust, end-customer oriented solutions for video surveillance, access control, and marketing requirements. International projects include safe-cities, airports, train and metro stations, prisons, banks, casinos, sports stadiums, shopping malls, military, police and forensic applications. Herta Security has partners in 25 countries.
   description: | # this will include new lines to allow paragraphs
     In Herta, I worked conducting research on tracking algorithms. During my internship, I explored all phases of research, starting with the collection and annotation of data. Then, I delved into state-of-the-art algorithms and implemented them with python. Finally, I developed and validated a new tracking algorithm, which achieved very good results. We also wrote a paper with the results and submitted it to a computer vision conference.
-
-- layout: left
-  company: <a href="//ub.edu">Universitat de Barcelona</a>
-  job_title: IT Support
-  dates: September 2018 - June 2019 (10 months)
-  quote: >
-  University of Barcelona is a public university located in the city of Barcelona, Catalonia in Spain.
-  description: | # this will include new lines to allow paragraphs
-    My responsibilities in Universitat de Barcelona as IT support included the surveillance of an IT room with 30 computers and the support to its users.
