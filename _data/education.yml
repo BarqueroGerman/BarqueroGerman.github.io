@@ -3,7 +3,7 @@
   name: <a href="//www.epfl.ch/schools/ic/" href="_blank">École polytechnique fédérale de Lausanne</a>
   dates: September 2019 - February 2020
   qualification: Exchange project (30 ECTS)
-  quote:  Exchange project in Computer Vision applied to Medical Image Analysis
+  #quote:  Exchange project in Computer Vision applied to Medical Image Analysis
   description: | # this will include new lines to allow paragraphs
     I worked at the Signal Processing Laboratory 5 (LTS5) and the Medical Image Analysis Laboratory (MIAL) in an interdisciplinary medical imaging project that aims to improve the diagnosis and follow-up of Multiple Sclerosis (MS) patients by applying computer vision techniques to Magnetic Resonance Imaging (MRI). <br>Together with my supervisors (Jean-Philippe Thiran and Meritxell Bach) and assistants, we developed RimNet, a network that automatically detected paramagnetic rims around MS lesions, proving itself as a promising tool to aid doctors with patients' prognosis. The results were submitted to MIDL2020.<br>I particularly appreciated working in an international and multidisciplinary project with engineers, medical doctors and MRI physicists.
 
@@ -14,7 +14,7 @@
   qualification: Bachelor's degree in Computer Science
   #quote: 
   description: | # this will include new lines to allow paragraphs
-    With this Bachelor's degree, I acquired a transversal knowledge on computer science. I took courses on diverse fields such as algorithms, software engineering, electronics...
+    With this Bachelor's degree, I acquired a transversal knowledge on computer science. I took courses on diverse fields such as algorithms, software engineering, electronics... During the degree, I participated in several hackathons and game jams where I applied the academic knowledge in a more practical way.
 
 
 - layout: left
