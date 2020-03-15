@@ -69,6 +69,7 @@ more_content: | # this will include new lines to allow paragraphs
   Technical skills:
     Programming: C, C++, Java, Python, Android, SQL, Javascript, .NET
     General: Git, Agile (SCRUM), Linux, Windows
+    
   Social skills:
     Communicative skills.
     Leadership and teamwork.
@@ -77,6 +78,10 @@ more_content: | # this will include new lines to allow paragraphs
     Experience as reinforcement teacher with kids for 7 years.
     Volunteering as kids summer activities instructor.
 
+# Languages Section
+#more_title: Languages #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  English...
 
 # Footer
 footer_show_references: true
