@@ -5,9 +5,7 @@
   qualification: Exchange project (30 ECTS)
   quote:  Exchange project in Computer Vision applied to Medical Image Analysis
   description: | # this will include new lines to allow paragraphs
-    I worked at the Signal Processing Laboratory 5 (LTS5) and the Medical Image Analysis Laboratory (MIAL) in an interdisciplinary medical imaging project that aims to improve the diagnosis and follow-up of Multiple Sclerosis (MS) patients by applying computer vision techniques to Magnetic Resonance Imaging (MRI).
-  Together with my supervisors (Jean-Philippe Thiran and Meritxell Bach) and assistants, we developed RimNet, a network that automatically detected paramagnetic rims around MS lesions, proving itself as a promising tool to aid doctors with patients' prognosis. The results were submitted to MIDL2020.
-  I particularly appreciated working in an international and multidisciplinary project with engineers, medical doctors and MRI physicists.
+    I worked at the Signal Processing Laboratory 5 (LTS5) and the Medical Image Analysis Laboratory (MIAL) in an interdisciplinary medical imaging project that aims to improve the diagnosis and follow-up of Multiple Sclerosis (MS) patients by applying computer vision techniques to Magnetic Resonance Imaging (MRI). <br>Together with my supervisors (Jean-Philippe Thiran and Meritxell Bach) and assistants, we developed RimNet, a network that automatically detected paramagnetic rims around MS lesions, proving itself as a promising tool to aid doctors with patients' prognosis. The results were submitted to MIDL2020.<br>I particularly appreciated working in an international and multidisciplinary project with engineers, medical doctors and MRI physicists.
 
 
 - layout: left
