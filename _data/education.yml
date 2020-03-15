@@ -1,6 +1,6 @@
 # Education Template
 - layout: left
-  name: École polytechnique fédérale de Lausanne
+  name: <a href="//www.epfl.ch/schools/ic/" href="_blank">École polytechnique fédérale de Lausanne</a>
   dates: September 2019 - February 2020
   qualification: Exchange project (30 ECTS)
   quote:  Exchange project in Computer Vision applied to Medical Image Analysis
@@ -9,18 +9,18 @@
 
 
 - layout: left
-  name: Universitat de Barcelona
+  name: <a href="//mat.ub.edu/grauinformatica/" target="_blank">Universitat de Barcelona</a>
   dates: September 2014 - February 2020
-  qualification: <a href="//mat.ub.edu/grauinformatica/" target="_blank">Bachelor's degree in Computer Science</a>
+  qualification: Bachelor's degree in Computer Science
   #quote: 
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    With this Bachelor's degree, I acquired a transversal knowledge on computer science. I took courses on diverse fields such as algorithms, software engineering, electronics...
 
 
 - layout: left
-  name: Universitat de Barcelona
+  name: <a href="//mat.ub.edu/graumatematiques/" target="_blank">Universitat de Barcelona</a>
   dates: September 2014 - February 2020
-  qualification: <a href="//mat.ub.edu/graumatematiques/" target="_blank">Bachelor's degree in Mathematics</a>
+  qualification: Bachelor's degree in Mathematics
   #quote: 
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    The Bachelor's degree on Mathematics was very fruitful and boosted my computer science insights. During its course, I learned how to solve real-world problems by applying and proving theorems from algebra, topology, calculus... This provided me with the abstract reasoning that is required in a computer scientist career.

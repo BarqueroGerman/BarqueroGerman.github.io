@@ -1,10 +1,10 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: BarqueroGerman.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: German Barquero
-title: Your job title
+title: Computer Science Engineer
 email: barquerogerman@gmail.com
 #phone: +34 676 28 16 28
 #website: Your website (eg. https://google.com)(optional)
@@ -19,7 +19,7 @@ github_username:  barquerogerman
 #facebook_username: jekyll
 #flickr_username: jekyll
 #instagram_username: jekyll
-linkedin_username: germán-barquero-garcía-731b96b4
+linkedin_username: barquerogerman
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll

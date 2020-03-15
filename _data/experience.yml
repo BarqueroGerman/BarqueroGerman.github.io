@@ -3,16 +3,16 @@
   company: <a href="//chuv.ch" target="_blank">CHUV - Centre hospitalier universitaire vaudois</a>
   #link: chuv.ch
   job_title: Graduate Research Intern
-  dates: March 2020 - Present
+  dates: March 2020 - August 2020 (5 months)
   quote: >
    The Lausanne University Hospital (CHUV) is one of the 5 Swiss university hospitals. Through its collaboration with the Faculty of Biology and Medicine of the University of Lausanne, CHUV plays a role of Europe-wide advanced in the areas of medical care, medical research and training.
   description: | # this will include new lines to allow paragraphs
-    With this internship, I was offered a great opportunity to further explore the results of the work done in my previous exchange project in EPFL. In it, I am exploring the prediction capabilities of other contrasts and the challenges that ultra-high-field MRI poses to RimNet.
+    With this internship, I was offered a great opportunity to further explore the results of the work done in my previous exchange project in EPFL, where I developed RimNet, a network able to automatically detect rim positive lesions in Multiple Sclerosis MRI. During the course of this internship, I will explore the prediction capabilities of more complex contrasts and the challenges that ultra-high-field MRI poses to RimNet.
 
 - layout: left
   company: <a href="//hertasecurity.com" target="_blank">Herta Security</a>
   job_title: Undergraduate Research Intern
-  dates: June 2019 - September 2020
+  dates: June 2019 - September 2020 (3 months)
   quote: >
    Herta Security is a world leader in the development of cutting edge facial recognition solutions. Based in Barcelona, Spain, – with offices in Madrid and London -, the company offers fast, accurate, robust, end-customer oriented solutions for video surveillance, access control, and marketing requirements.
   description: | # this will include new lines to allow paragraphs
