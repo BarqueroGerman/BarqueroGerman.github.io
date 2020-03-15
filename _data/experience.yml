@@ -1,6 +1,6 @@
 # Experience template
 - layout: left
-  company: <a href="//chuv.ch">CHUV - Centre hospitalier universitaire vaudois</a>
+  company: <a href="//chuv.ch" target="_blank">CHUV - Centre hospitalier universitaire vaudois</a>
   #link: chuv.ch
   job_title: Graduate Research Intern
   dates: March 2020 - Present
@@ -10,19 +10,28 @@
     With this internship, I was offered a great opportunity to further explore the results of the work done in my previous exchange project in EPFL. In it, I am exploring the prediction capabilities of other contrasts and the challenges that ultra-high-field MRI poses to RimNet.
 
 - layout: left
-  company: <a href="//hertasecurity.com">Herta Security</a>
+  company: <a href="//hertasecurity.com" target="_blank">Herta Security</a>
   job_title: Undergraduate Research Intern
   dates: June 2019 - September 2020
   quote: >
-   Herta Security is a world leader in the development of cutting edge facial recognition solutions. Based in Barcelona, Spain, – with offices in Madrid and London -, the company offers fast, accurate, robust, end-customer oriented solutions for video surveillance, access control, and marketing requirements. International projects include safe-cities, airports, train and metro stations, prisons, banks, casinos, sports stadiums, shopping malls, military, police and forensic applications. Herta Security has partners in 25 countries.
+   Herta Security is a world leader in the development of cutting edge facial recognition solutions. Based in Barcelona, Spain, – with offices in Madrid and London -, the company offers fast, accurate, robust, end-customer oriented solutions for video surveillance, access control, and marketing requirements.
   description: | # this will include new lines to allow paragraphs
     In Herta, I worked conducting research on tracking algorithms. During my internship, I explored all phases of research, starting with the collection and annotation of data. Then, I delved into state-of-the-art algorithms and implemented them with python. Finally, I developed and validated a new tracking algorithm, which achieved very good results. We also wrote a paper with the results and submitted it to a computer vision conference.
 
 - layout: left
-  company: <a href="//www.linkedin.com/company/getupcode-com/about/">Getupcode.com</a>
+  company: <a href="//ub.edu" target="_blank">Universitat de Barcelona</a>
+  job_title: IT Support
+  dates: September 2018 - June 2019 (10 months)
+  quote: >
+    Universitat de Barcelona is a public university located in Barcelona, Spain, that offers a wide number of studies.
+  description: | # this will include new lines to allow paragraphs
+    My responsibilities in Universitat de Barcelona as IT support included the surveillance of an IT room with 30 computers and the support to its users.
+
+- layout: left
+  company: <a href="//www.linkedin.com/company/getupcode-com/about/" target="_blank">Getupcode.com</a>
   job_title: Junior Full Stack Developer
   dates: July 2015 - Jun 2016 (1 year)
   quote: >
-   Getupcode.com is an online Marketplace to meet the best developers ready to be hired.<br>Getupcode.com creates auctions of developers according to the job profile enterprises are looking for. Developers can find the best job with minimum effort and time. Also, the companies only meet certified developers.<br>Getupcode certifies the knowledge of computer programming through small exercises and a pair-programming session. The companies can review the developer’s assets and skills introduced in Getupcode's platform with the aim to be more effective, reducing the time and costs in their recruitment process.
+   Getupcode.com is an online Marketplace to meet the best developers ready to be hired.<br>Getupcode.com creates auctions of developers according to the job profile enterprises are looking for.
   description: | # this will include new lines to allow paragraphs
     I worked in Getupcode as a full-stack developer, being in charge of the development and maintenance of their web platform, which included the design and maintenance of its database. During the time spent there, I learned to use many different technologies such as javascript, HTML, CSS, .NET, Linq, Selenium, SQL, Sencha (ExtJS)...
