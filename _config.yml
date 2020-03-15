@@ -66,17 +66,21 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: Other skills and interests #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  Technical skills:
-    Programming: C, C++, Java, Python, Android, SQL, Javascript, .NET
-    General: Git, Agile (SCRUM), Linux, Windows
+  <h3>Technical skills<h3>
+    <ul>
+      <li>Programming: C, C++, Java, Python, Android, SQL, Javascript, .NET</li>
+      <li>General: Git, Agile (SCRUM), Linux, Windows</li>
+    </ul>
 
-  Social skills:
-    Communicative skills.
-    Leadership and teamwork.
-    Resolving capacity.
-    Persevering and perfectionist.
-    Experience as reinforcement teacher with kids for 7 years.
-    Volunteering as kids summer activities instructor.
+  <h3>Social skills<h3>
+    <ul>
+      <li>Communicative skills.</li>
+      <li>Leadership and teamwork.</li>
+      <li>Resolving capacity.</li>
+      <li>Persevering and perfectionist.</li>
+      <li>Experience as reinforcement teacher with kids for 7 years.</li>
+      <li>Volunteering as kids summer activities instructor.</li>
+    </ul>
 
 # Languages Section
 #languages_title: Languages #(Use this to override about more section title)
