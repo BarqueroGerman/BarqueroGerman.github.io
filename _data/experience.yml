@@ -23,7 +23,7 @@
   job_title: IT Support
   dates: September 2018 - June 2019 (10 months)
   quote: >
-University of Barcelona is a public university located in the city of Barcelona, Catalonia in Spain.
+  University of Barcelona is a public university located in the city of Barcelona, Catalonia in Spain.
   description: | # this will include new lines to allow paragraphs
     My responsibilities in Universitat de Barcelona as IT support included the surveillance of an IT room with 30 computers and the support to its users.
 
@@ -36,4 +36,4 @@ University of Barcelona is a public university located in the city of Barcelona,
   Getupcode.com creates auctions of developers according to the job profile enterprises are looking for. Developers can find the best job with minimum effort and time. Also, the companies only meet certified developers.
   Getupcode certifies the knowledge of computer programming through small exercises and a pair-programming session. The companies can review the developer’s assets and skills introduced in Getupcode's platform with the aim to be more effective, reducing the time and costs in their recruitment process.
   description: | # this will include new lines to allow paragraphs
-    I worked in Getupcode as a full-stack developer, being in charge of the development and maintenance of their web platform, which included the design and maintenance of its database. During the time spent there, I learned to use many different technologies: javascript, HTML, CSS, .NET, Linq, Selenium, SQL, Sencha (ExtJS)...
+    I worked in Getupcode as a full-stack developer, being in charge of the development and maintenance of their web platform, which included the design and maintenance of its database. During the time spent there, I learned to use many different technologies such as javascript, HTML, CSS, .NET, Linq, Selenium, SQL, Sencha (ExtJS)...
