@@ -66,13 +66,13 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: Other skills and interests #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  <h3>Technical skills<h3>
+  <h4>Technical skills<h4>
     <ul>
-      <li>Programming: C, C++, Java, Python, Android, SQL, Javascript, .NET</li>
-      <li>General: Git, Agile (SCRUM), Linux, Windows</li>
+      <li>Programming: <mark>C</mark>   <mark>C++</mark>   <mark>Java</mark>   <mark>Python</mark>   <mark>OpenCV</mark>   <mark>Android</mark>   <mark>SQL</mark>   <mark>Javascript</mark>   <mark>.NET</mark></li>
+      <li>General: <mark>Git</mark>   <mark>Agile (SCRUM)</mark>   <mark>Linux</mark>   <mark>Windows</mark></li>
     </ul>
 
-  <h3>Social skills<h3>
+  <h4>Social skills<h4>
     <ul>
       <li>Communicative skills.</li>
       <li>Leadership and teamwork.</li>
@@ -85,7 +85,12 @@ more_content: | # this will include new lines to allow paragraphs
 # Languages Section
 #languages_title: Languages #(Use this to override about more section title)
 languages_content: | # this will include new lines to allow paragraphs
-  English...
+    <ul>
+      <li>Catalan:  Native</li>
+      <li>Spanish:  Native</li>
+      <li>English:  Advanced</li>
+      <li>French:   Beginner</li>
+    </ul>
 
 # Footer
 footer_show_references: true
