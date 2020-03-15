@@ -1,17 +1,1 @@
 # Education Template
-- layout: left
-  name: Universitat de Barcelona
-  dates: September 2014 - February 2020
-  qualification: <a href="//mat.ub.edu/grauinformatica/">Bachelor's degree in Computer Science</a>
-  #quote: 
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
-
-
-- layout: left
-  name: Universitat de Barcelona
-  dates: September 2014 - February 2020
-  qualification: <a href="//mat.ub.edu/graumatematiques/">Bachelor's degree in Mathematics</a>
-  #quote: 
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
