@@ -32,8 +32,6 @@
   job_title: Junior Full Stack Developer
   dates: July 2015 - Jun 2016 (1 year)
   quote: >
-   Getupcode.com is an online Marketplace to meet the best developers ready to be hired.
-  Getupcode.com creates auctions of developers according to the job profile enterprises are looking for. Developers can find the best job with minimum effort and time. Also, the companies only meet certified developers.
-  Getupcode certifies the knowledge of computer programming through small exercises and a pair-programming session. The companies can review the developer’s assets and skills introduced in Getupcode's platform with the aim to be more effective, reducing the time and costs in their recruitment process.
+   Getupcode.com is an online Marketplace to meet the best developers ready to be hired.<br>Getupcode.com creates auctions of developers according to the job profile enterprises are looking for. Developers can find the best job with minimum effort and time. Also, the companies only meet certified developers.<br>Getupcode certifies the knowledge of computer programming through small exercises and a pair-programming session. The companies can review the developer’s assets and skills introduced in Getupcode's platform with the aim to be more effective, reducing the time and costs in their recruitment process.
   description: | # this will include new lines to allow paragraphs
     I worked in Getupcode as a full-stack developer, being in charge of the development and maintenance of their web platform, which included the design and maintenance of its database. During the time spent there, I learned to use many different technologies such as javascript, HTML, CSS, .NET, Linq, Selenium, SQL, Sencha (ExtJS)...
