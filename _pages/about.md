@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://mat.ub.edu/' target='_blank'>Universitat de Barcelona</a>.
 
 profile:
   align: right
