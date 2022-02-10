@@ -1,6 +1,24 @@
 ---
 ---
 
+@book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={2022},
+  publisher={Courier Corporation,}
+}
+
+@inproceedings{aboulnaga2001estimating,
+  title={Estimating the selectivity of XML path expressions for internet scale applications},
+  author={Aboulnaga, Ashraf and Alameldeen, Alaa R and Naughton, Jeffrey F},
+  booktitle={VLDB},
+  volume={1},
+  pages={591--600},
+  year={2022},
+  organization={Citeseer}
+}
+
 @article{barquero2021rank,
   bibtex_show={true},
   abbr={T-BIOM},
@@ -36,7 +54,7 @@
   bibtex_show={true},
   abbr={Comp. BioMed},
   title={MPRAGE to MP2RAGE UNI translation via generative adversarial network improves the automatic tissue and lesion segmentation in multiple sclerosis patients},
-  author={La Rosa, Francesco and Yu, Thomas and Barquero, German and Thiran, Jean-Philippe and Granziera, Cristina and Cuadra, Meritxell Bach},
+  author={La Rosa, F. and Yu, T. and Barquero, G. and Thiran, J. P. and Granziera, C. and {Bach Cuadra}, M.},
   journal={Computers in biology and medicine},
   volume={132},
   pages={104297},
@@ -47,11 +65,11 @@
   abstract={
     <b>Background and objective</b><br>
     Compared to the conventional magnetization-prepared rapid gradient-echo imaging (MPRAGE) MRI sequence, the specialized magnetization prepared 2 rapid acquisition gradient echoes (MP2RAGE) shows a higher brain tissue and lesion contrast in multiple sclerosis (MS) patients. The goal of this work is to retrospectively generate realistic-looking MP2RAGE uniform images (UNI) from already acquired MPRAGE images in order to improve the automatic lesion and tissue segmentation.
-    <b>Methods</b><br>
+    <br><b>Methods</b><br>
     For this task we propose a generative adversarial network (GAN). Multi-contrast MRI data of 12 healthy controls and 44 patients diagnosed with MS was retrospectively analyzed. Imaging was acquired at 3T using a SIEMENS scanner with MPRAGE, MP2RAGE, FLAIR, and DIR sequences. We train the GAN with both healthy controls and MS patients to generate synthetic MP2RAGE UNI images. These images were then compared to the real MP2RAGE UNI (considered as ground truth) analyzing the output of automatic brain tissue and lesion segmentation tools. Reference-based metrics as well as the lesion-wise true and false positives, Dice coefficient, and volume difference were considered for the evaluation. Statistical differences were assessed with the Wilcoxon signed-rank test.
-    <b>Results</b><br>
+    <br><b>Results</b><br>
     The synthetic MP2RAGE UNI significantly improves the lesion and tissue segmentation masks in terms of Dice coefficient and volume difference (p-values < 0.001) compared to the MPRAGE. For the segmentation metrics analyzed no statistically significant differences are found between the synthetic and acquired MP2RAGE UNI.
-    <b>Conclusion</b><br>
+    <br><b>Conclusion</b><br>
     Synthesized MP2RAGE UNI images are visually realistic and improve the output of automatic segmentation tools.
   }
 }
@@ -60,7 +78,7 @@
   bibtex_show={true},
   abbr={NeuroImage},
   title={RimNet: A deep 3D multimodal MRI architecture for paramagnetic rim lesion assessment in multiple sclerosis},
-  author={Germán Barquero and Francesco {La Rosa} and Hamza Kebiri and Po-Jui Lu and Reza Rahmanzadeh and Matthias Weigel and Mário João Fartaria and Tobias Kober and Marie Théaudin and Renaud {Du Pasquier} and Pascal Sati and Daniel S. Reich and Martina Absinta and Cristina Granziera and Pietro Maggi and Meritxell {Bach Cuadra}},
+  author={G. Barquero and F. {La Rosa} and H. Kebiri and P. J. Lu and R. Rahmanzadeh and M. Weigel and M. J. Fartaria and T. Kober and M. Théaudin and R. {Du Pasquier} and P. Sati and D. S. Reich and M. Absinta and C. Granziera and P. Maggi and M. {Bach Cuadra}},
   journal={NeuroImage: Clinical},
   volume={28},
   pages={102412},
@@ -70,11 +88,11 @@
   pdf={2020_rimnet.pdf},
   abstract={<b>Objectives</b><br>
     In multiple sclerosis (MS), the presence of a paramagnetic rim at the edge of non-gadolinium-enhancing lesions indicates perilesional chronic inflammation. Patients featuring a higher paramagnetic rim lesion burden tend to have more aggressive disease. The objective of this study was to develop and evaluate a convolutional neural network (CNN) architecture (RimNet) for automated detection of paramagnetic rim lesions in MS employing multiple magnetic resonance (MR) imaging contrasts.
-    <b>Materials and methods</b><br>
+    <br><b>Materials and methods</b><br>
     Imaging data were acquired at 3 Tesla on three different scanners from two different centers, totaling 124 MS patients, and studied retrospectively. Paramagnetic rim lesion detection was independently assessed by two expert raters on T2*-phase images, yielding 462 rim-positive (rim+) and 4857 rim-negative (rim-) lesions. RimNet was designed using 3D patches centered on candidate lesions in 3D-EPI phase and 3D FLAIR as input to two network branches. The interconnection of branches at both the first network blocks and the last fully connected layers favors the extraction of low and high-level multimodal features, respectively. RimNet’s performance was quantitatively evaluated against experts’ evaluation from both lesion-wise and patient-wise perspectives. For the latter, patients were categorized based on a clinically relevant threshold of 4 rim+ lesions per patient. The individual prediction capabilities of the images were also explored and compared (DeLong test) by testing a CNN trained with one image as input (unimodal).
-    <b>Results</b><br>
+    <br><b>Results</b><br>
     The unimodal exploration showed the superior performance of 3D-EPI phase and 3D-EPI magnitude images in the rim+/- classification task (AUC = 0.913 and 0.901), compared to the 3D FLAIR (AUC = 0.855, Ps < 0.0001). The proposed multimodal RimNet prototype clearly outperformed the best unimodal approach (AUC = 0.943, P < 0.0001). The sensitivity and specificity achieved by RimNet (70.6% and 94.9%, respectively) are comparable to those of experts at the lesion level. In the patient-wise analysis, RimNet performed with an accuracy of 89.5% and a Dice coefficient (or F1 score) of 83.5%.
-    <b>Conclusions</b><br>
+    <br><b>Conclusions</b><br>
     The proposed prototype showed promising performance, supporting the usage of RimNet for speeding up and standardizing the paramagnetic rim lesions analysis in MS.
     }
 }
