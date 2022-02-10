@@ -1,14 +1,14 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Thiran":
+  - firstname: ["Jean Philippe", "J. P.", "J.", "JP"]
+    url: https://scholar.google.com/citations?user=mII-l2cAAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Escalera":
+  - firstname: ["Sergio", "S."]
+    url: https://scholar.google.com/citations?user=oI6AIkMAAAAJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Guyon":
+  - firstname: ["Isabelle", "I."]
+    url: https://en.wikipedia.org/wiki/Isabelle_Guyon
 
 "Bach": 
   - firstname: ["Meritxell", "M."]
