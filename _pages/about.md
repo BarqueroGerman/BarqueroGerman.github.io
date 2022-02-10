@@ -2,21 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://mat.ub.edu/' target='_blank'>Universitat de Barcelona</a>.
+subtitle: Universitat de Barcelona (UB)
 
 profile:
   align: right
   image: miamigalavacayyo.jpg
   address: >
-    <p>Barcelona, Spain</p>
+    <p>La vache et moi</p>
+    <p>Somewhere in the Pyrenees</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am German Barquero, a PhD student at Universitat de Barcelona, advised by Prof. Sergio Escalera. My main interests include human behavior analysis through computer vision and machine learning techniques, especially in adaptive and explainable human behavior forecasting.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In 2021, I obtained an MSc in Computer Vision from Universitat Autònoma de Barcelona (UAB), receiving the best student award. I carried out my Master's thesis in the [HuPBA group](https://sergioescalera.com/students/), led by [Sergio Escalera](https://scholar.google.com/citations?user=oI6AIkMAAAAJ). There, I co-organized the [DYAD ICCV'21 workshop](https://chalearnlap.cvc.uab.es/workshop/44/description/) and led the Behavior Forecasting challenge track. Previously, I graduated in Mathematics and Computer Science from Universitat de Barcelona (UB). During my last year, I was awarded a scolarship to conduct my Bachelor's thesis in the École Polytechnique Fédérale de Lausanne (EPFL), co-supervised by [Jean-Philippe Thiran](https://scholar.google.com/citations?user=mII-l2cAAAAJ) and [Meritxell Bach Cuadra](https://scholar.google.com/citations?user=UoZ4neoAAAAJ).
