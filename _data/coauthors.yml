@@ -1,5 +1,5 @@
 "Thiran":
-  - firstname: ["Jean Philippe", "J. P.", "J.", "JP"]
+  - firstname: ["Jean Philippe", "Jean-Philippe", "J. P.", "J.", "JP"]
     url: https://scholar.google.com/citations?user=mII-l2cAAAAJ
 
 "Escalera":
@@ -16,3 +16,8 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+
+"Bach Cuadra": 
+  - firstname: ["Meritxell", "M."]
+    url: https://scholar.google.com/citations?user=UoZ4neoAAAAJ&hl=en

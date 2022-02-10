@@ -8,7 +8,7 @@ profile:
   align: right
   image: miamigalavacayyo.jpg
   address: >
-    <p>La vache et moi, somewhere in the Spanish Pyrenees</p>
+    <p>Mon amie la vache et moi dans les Alpes suisses.</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
