@@ -1,27 +1,37 @@
 ---
 ---
 
-
+@inproceedings{palmero2022chalearn,
+  abbr={PMLR},
+  title={Chalearn LAP challenges on self-reported personality recognition and non-verbal behavior forecasting during social dyadic interactions: Dataset, design, and results},
+  author={Palmero, Cristina and Barquero, German and Junior, Julio CS Jacques and Clap{\'e}s, Albert and N{\'u}nez, Johnny and Curto, David and Smeureanu, Sorina and Selva, Javier and Zhang, Zejian and Saeteros, David and others},
+  booktitle={Understanding Social Behavior in Dyadic and Small Group Interactions},
+  series = {Proceedings of Machine Learning Research},
+  pages={4--52},
+  year={2022},
+  html={https://proceedings.mlr.press/v173/palmero22b.html},
+  abstract={This paper summarizes the 2021 ChaLearn Looking at People Challenge on Understanding Social Behavior in Dyadic and Small Group Interactions (DYAD), which featured two tracks, self-reported personality recognition and behavior forecasting, both on the UDIVA v0.5 dataset. We review important aspects of this multimodal and multiview dataset consisting of 145 interaction sessions where 134 participants converse, collaborate, and compete in a series of dyadic tasks. We also detail the transcripts and body landmark annotations for UDIVA v0.5 that are newly introduced for this occasion. We briefly comment on organizational aspects of the challenge before describing each track and presenting the proposed baselines. The results obtained by the participants are extensively analyzed to bring interesting insights about the tracks tasks and the nature of the dataset. We wrap up with a discussion on challenge outcomes, and pose several questions that we expect will motivate further scientific research to better understand social cues in human-human and human-machine interaction scenarios and help build future AI applications for good.}
+}
 
 @inproceedings{barquero2022survey,
-  abbr={PMLR},
+   abbr={PMLR},
    author = {Barquero, German and  N{\'u}ñez, Johnny and Escalera, Sergio and Xu, Zhen and Tu, Wei-Wei and Guyon, Isabelle and Palmero, Cristina},
    booktitle= {Understanding Social Behavior in Dyadic and Small Group Interactions},
    title = {Didn't see that coming: a survey on non-verbal social human behavior forecasting},
    year = {2022},
-   arxiv={2203.02480},
+   html={https://proceedings.mlr.press/v173/barquero22b.html},
    series = {Proceedings of Machine Learning Research},
    abstract= {Non-verbal social human behavior forecasting has increasingly attracted the interest of the research community in recent years. Its direct applications to human-robot interaction and socially-aware human motion generation make it a very attractive field. In this survey, we define the behavior forecasting problem for multiple interactive agents in a generic way that aims at unifying the fields of social signals prediction and human motion forecasting, traditionally separated. We hold that both problem formulations refer to the same conceptual problem, and identify many shared fundamental challenges: future stochasticity, context awareness, history exploitation, etc. We also propose a taxonomy that comprises methods published in the last 5 years in a very informative way and describes the current main concerns of the community with regard to this problem. In order to promote further research on this field, we also provide a summarised and friendly overview of audiovisual datasets featuring non-acted social interactions. Finally, we describe the most common metrics used in this task and their particular issues.},
 }
 
 @inproceedings{barquero2022comparison,
-  abbr={PMLR},
+   abbr={PMLR},
    author = {Barquero, German and  N{\'u}ñez, Johnny and Xu, Zhen and Escalera, Sergio and Tu, Wei-Wei and Guyon, Isabelle and Palmero, Cristina},
    booktitle= {Understanding Social Behavior in Dyadic and Small Group Interactions},
    title = {Comparison of Spatio-Temporal Models for Human Motion and Pose Forecasting in Face-to-Face Interaction Scenarios},
    year = {2022},
    code={https://github.com/crisie/UDIVA/tree/main/BehaviorForecasting},
-   arxiv={2203.03245},
+   html={https://proceedings.mlr.press/v173/barquero22a.html},
    series = {Proceedings of Machine Learning Research},
    abstract= {Human behavior forecasting during human-human interactions is of utmost importance to provide robotic or virtual agents with social intelligence. This problem is especially challenging for scenarios that are highly driven by interpersonal dynamics. In this work, we present the first systematic comparison of state-of-the-art approaches for behavior forecasting. To do so, we leverage whole-body annotations (face, body, and hands) from the very recently released UDIVA v0.5, which features face-to-face dyadic interactions. Our best attention-based approaches achieve state-of-the-art performance in UDIVA v0.5. We show that by autoregressively predicting the future with methods trained for the short-term future (<400ms), we outperform the baselines even for a considerably longer-term future (up to 2s). We also show that this finding holds when highly noisy annotations are used, which opens new horizons towards the use of weakly-supervised learning. Combined with large-scale datasets, this may help boost the advances in this field.},
 }

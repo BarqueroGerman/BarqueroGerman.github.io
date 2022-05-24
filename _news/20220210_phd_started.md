@@ -1,0 +1,7 @@
+---
+layout: post
+date: 2022-02-10 21:00:00-0400
+inline: true
+---
+
+I started a PhD on Computer Vision under the supervision of Sergio Escalera, at Universitat de Barcelona 💪🏽
