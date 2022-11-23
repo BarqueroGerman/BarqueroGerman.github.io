@@ -2,8 +2,7 @@
     $(function () {
         $(".dropdown-menu a").click(function () {
                  var selText = $(this).text();
-                 $(".selection").html(selText);
-                 console.log("hola")
+                 $(this).parent().parent().find(".selection").html(selText);
         });
     });
 </script>
