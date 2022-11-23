@@ -595,3 +595,16 @@ html.transition *:after {
 .figure-padding{
   padding: 20px;
 }
+
+
+
+@media (max-width: 600px) {
+  .project-narrow {
+    max-width: 100%
+  }
+}
+@media (min-width: 600px) {
+  .project-narrow {
+    max-width: 80%
+  }
+}

@@ -33,7 +33,7 @@ navbar_fixed: false
 
 <!---------------------------- ABSTRACT ---------------------------->
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
-    <div class="col-8" id="abstract" style="text-align: justify;">
+    <div class="project-narrow" id="abstract" style="text-align: justify;">
     <h3 style="text-align: center;">Abstract</h3>
     <i>
     Stochastic human motion prediction (HMP) has generally been tackled with generative adversarial networks and variational autoencoders. Most prior works aim at predicting highly diverse movements in terms of the skeleton joints’ dispersion. This has led to methods predicting fast and motion-divergent movements, which are often unrealistic and incoherent with past motion. Such methods also neglect contexts that need to anticipate diverse low-range behaviors, or actions, with subtle joint displacements. To address these issues, we present BeLFusion, a model that, for the first time, leverages latent diffusion models in HMP to sample from a latent space where behavior is disentangled from pose and motion. As a result, diversity is encouraged from a behavioral perspective. Thanks to our behavior coupler’s ability to transfer sampled behavior to ongoing motion, BeLFusion’s predictions display a variety of behaviors that are significantly more realistic than the state of the art. To support it, we introduce two metrics, the Area of the Cumulative Motion Distribution, and the Average Pairwise Distance Error, which are correlated to our definition of realism according to a qualitative study with 126 participants. Finally, we prove BeLFusion’s generalization power in a new cross-dataset scenario for stochastic HMP.
@@ -44,7 +44,7 @@ navbar_fixed: false
 
 <!---------------------------- ARCHITECTURE ---------------------------->
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
-    <div class="col-8" id="architecture" style="text-align: justify;">
+    <div class="project-narrow" id="architecture" style="text-align: justify;">
         <h3 style="text-align: center;">Architecture</h3>
     </div>
 </div>
@@ -58,15 +58,17 @@ A latent diffusion model conditioned on an encoding $$x=2$$ of the observation, 
 <!---------------------------- GIFS ---------------------------->
 <div style="max-width: site.max_project_width" style="margin-top:50px; padding: 0px !important">
     <h3 style="text-align: center; margin-bottom:20px">Examples <i>in motion</i></h3>
-    <div class="col-12 list-group list-group-horizontal justify-content-center" id="list-tab" role="tablist">
-        <a class="col-2 list-group-item list-group-item-action active" id="h36m-list" data-toggle="list" href="#h36m" role="tab" aria-controls="h36m" style="text-align: center;">Human3.6M</a>
-        <a class="col-2 list-group-item list-group-item-action" id="amass-list" data-toggle="list" href="#amass" role="tab" aria-controls="amass" style="text-align: center;">AMASS</a>
+    <div class="justify-content-center list-group list-group-horizontal" id="list-tab" role="tablist">
+        <div class="list-group list-group-horizontal" style="max-width:600px">
+        <a class="list-group-item list-group-item-action active" id="h36m-list" data-toggle="list" href="#h36m" role="tab" aria-controls="h36m" style="text-align: center;">Human3.6M</a>
+        <a class="list-group-item list-group-item-action" id="amass-list" data-toggle="list" href="#amass" role="tab" aria-controls="amass" style="text-align: center;">AMASS</a>
+        </div>
     </div>
-    <div class="col-12 tab-content figure" id="nav-tabContent" style="margin-top:20px" style="padding: 0px !important">
+    <div class="tab-content figure" id="nav-tabContent" style="margin-top:20px" style="padding: 0px !important">
         <div class="tab-pane fade show active" id="h36m" role="tabpanel" aria-labelledby="h36m-list" style="padding: 0px !important">
             <div class="h-100 d-flex align-items-center justify-content-center">
-                <div class="col-4 dropdown list-group">
-                    <button class="btn dropdown-toggle" type="button" id="h36m-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropdown list-group">
+                    <button class="btn dropdown-toggle" style="max-width:600px" type="button" id="h36m-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="selection">H_4_Sitting</span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="list-tab" role="tablist">
@@ -102,8 +104,8 @@ A latent diffusion model conditioned on an encoding $$x=2$$ of the observation, 
         </div>
         <div class="tab-pane fade" id="amass" role="tabpanel" aria-labelledby="amass-list" style="padding: 0px !important">
             <div class="h-100 d-flex align-items-center justify-content-center">
-                <div class="col-4 dropdown list-group">
-                    <button class="btn dropdown-toggle" type="button" id="h36m-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropdown list-group">
+                    <button class="btn dropdown-toggle" style="max-width:600px" type="button" id="h36m-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="selection">A_103_Transitions</span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="list-tab" role="tablist">
@@ -123,7 +125,7 @@ A latent diffusion model conditioned on an encoding $$x=2$$ of the observation, 
                     </div>
                 </div>
             </div>
-            <div class="col-12" style="padding: 0px !important">
+            <div style="padding: 0px !important">
                 <div class="tab-content figure" id="nav-tabContent">
                     <div class="tab-pane fade show active gif" id="A_103_Transitions" role="tabpanel"><img class="gif" src="/assets/img/belfusion/hmp_videos/A_103_Transitions.gif"></div>
                     <div class="tab-pane fade" id="A_1087_DanceDB" role="tabpanel"><img class="gif" src="/assets/img/belfusion/hmp_videos/A_1087_DanceDB.gif"></div>
@@ -151,11 +153,19 @@ A latent diffusion model conditioned on an encoding $$x=2$$ of the observation, 
 <!---------------------------- BIBLIOGRAPHY ---------------------------->
 
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
-    <div class="col-8" id="bibtex" style="text-align: justify;">
+    <div class="project-narrow" id="bibtex" style="text-align: justify;">
         <h3 style="text-align: center;">BibTeX</h3>
         <div class="bibtex">
         {% highlight bibtex %}
-TO BE UPDATED
+@article{barquero2020rimnet,
+  title={RimNet: A deep 3D multimodal MRI architecture for paramagnetic rim lesion assessment in multiple sclerosis},
+  author={Barquero, Germ{\'a}n and La Rosa, Francesco and Kebiri, Hamza and Lu, Po-Jui and Rahmanzadeh, Reza and Weigel, Matthias and Fartaria, M{\'a}rio Jo{\~a}o and Kober, Tobias and Th{\'e}audin, Marie and Du Pasquier, Renaud and others},
+  journal={NeuroImage: Clinical},
+  volume={28},
+  pages={102412},
+  year={2020},
+  publisher={Elsevier}
+}
 {% endhighlight %}
 
         </div>
