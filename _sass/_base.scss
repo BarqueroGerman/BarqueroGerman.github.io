@@ -27,6 +27,10 @@ figure, img {
   max-width: 90vw;
 }
 
+img.gif {
+  max-width: 100%;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
@@ -50,6 +54,7 @@ blockquote {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 
 // Citation
 .citation, .citation-number {
@@ -566,4 +571,27 @@ html.transition *:after {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
   padding-top: 0.25rem;
+}
+
+
+
+
+
+.project-links {
+  a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
+.figure-padding{
+  padding: 20px;
 }
