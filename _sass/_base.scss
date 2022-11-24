@@ -597,6 +597,17 @@ html.transition *:after {
   }
 }
 
+.btn-listgroup{
+  color: var(--global-theme-color);
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+  &:active {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
 
 
 

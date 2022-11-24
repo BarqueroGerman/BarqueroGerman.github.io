@@ -237,6 +237,10 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
                         <b>H3</b>
                         <img class="gif90" style="margin-left:20px" src="/assets/img/belfusion/bt_videos/H3.gif">
                     </div>
+                    <p style="margin-top: 10px; margin-bottom: 10px">
+                    The motion tagged as <b>behavior shows the target behavior to be encoded and transferred</b>. All the other columns show the ongoing motions where the behavior will be transferred to. They are shown with blue and orange skeletons. <b>Once the behavior is transferred, the color of the skeletons switches to green and pink.</b>
+                    <br><br>
+                    In ‘H1’ (H36M), the walking action or behavior is transferred to the target ongoing motions. For ongoing motions where the person is standing, they start walking towards the direction they are facing (#1, #2, #4, #5). Such transition is smooth and coherent with the observation. For example, the person making a phone call in #7 keeps the arm next to the ear while starting to walk. When sitting or bending down, the movement of the legs is either very little (#3 and #6), or very limited (#8). ‘H2’ and ‘H3’ show the transference of subtle and long-range behaviors, respectively.</p>
                 </div>
                 <div class="tab-pane fade show" id="amass_b" role="tabpanel" aria-labelledby="amass_b-list">
                     <div class="row align-items-center justify-content-center">
@@ -251,6 +255,10 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
                         <b>A3</b>
                         <img class="gif90" style="margin-left:20px" src="/assets/img/belfusion/bt_videos/A3.gif">
                     </div>
+                    <p style="margin-top: 10px; margin-bottom: 10px">
+                    The motion tagged as <b>behavior shows the target behavior to be encoded and transferred</b>. All the other columns show the ongoing motions where the behavior will be transferred to. They are shown with blue and orange skeletons. <b>Once the behavior is transferred, the color of the skeletons switches to green and pink.</b>
+                    <br><br>
+                    For AMASS (cross-dataset scenario), the behavioral encoding faces a huge domain drift. However, we still observe good results at this task. For example, ‘A1’ shows how a stretching movement is successfully transferred to very distinct ongoing motions by generating smooth and realistic transitions. Similarly, ‘A2’ and ‘A3’ are examples of transferring subtle and aggressive behaviors, respectively. Even though the dancing behavior in ‘A3’ was not seen at training time, it is transferred and adapted to the ongoing motion fairly realistically.</p>
                 </div>
             </div>
         </div>
