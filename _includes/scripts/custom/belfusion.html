@@ -21,4 +21,52 @@
             prev_value = $value.val();
         });
       });
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var lazyloadThrottleTimeout;
+        
+        var elements = document.getElementsByClassName('dropdown-item');
+        var collapse_behavior = document.getElementById('collapse-behavior');
+        console.log(collapse_behavior)
+
+        function lazyload (event) {
+            if(lazyloadThrottleTimeout) {
+            clearTimeout(lazyloadThrottleTimeout);
+            }    
+            img_id = this.text
+            img = $("#" + img_id).children("img").get(0)
+            if ($(img).hasClass('lazy')){
+                lazyloadThrottleTimeout = setTimeout(function() {
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazy');
+                }, 20);
+            }
+        }
+        
+        function lazyload2 (event) {
+            if(lazyloadThrottleTimeout) {
+                clearTimeout(lazyloadThrottleTimeout);
+            }    
+            console.log($("#collapse-behavior-content"), $("#collapse-behavior-content").children("img"))
+            imgs = $("#collapse-behavior-content").find("img")
+            lazyloadThrottleTimeout = setTimeout(function() {
+                imgs.each(function(i){
+                    img = imgs[i]
+                    if ($(img).hasClass('lazy')){
+                            img.src = img.dataset.src;
+                            img.classList.remove('lazy');
+                        clearTimeout(lazyloadThrottleTimeout);
+                    }
+                });
+            }, 20);
+        }
+        
+        Array.from(elements).forEach((element) => {
+        element.addEventListener('click', lazyload);
+        });
+        
+        collapse_behavior.addEventListener('click', lazyload2);
+
+    });
 </script>
