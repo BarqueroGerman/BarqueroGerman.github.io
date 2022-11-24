@@ -107,8 +107,37 @@ navbar_fixed: false
 A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, $$\mathbf{X}$$, progressively denoises a sample from a zero-mean unit variance multivariate normal distribution into a behavior code. Then, the behavior coupler $$\mathcal{B}_{\phi}$$ decodes the prediction by transferring the sampled behavior to the target motion, $$\mathbf{x}_{m}$$. In our implementation, $$f_{\Phi}$$ is a conditional U-Net with cross-attention, and $$h_{\lambda}$$, $$g_{\alpha}$$, and $$\mathcal{B}_{\phi}$$ are one-layer recurrent neural networks.
 
 
+
+<!---------------------------- RANGE K ---------------------------->
+<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+    <div class="project-narrow" id="architecture" style="text-align: justify;">
+        <h3 style="text-align: center;">Implicit diversity loss</h3>
+    </div>
+</div>
+<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top:5px">
+    $$\underset{k}{\min}\; \mathcal{L}_{lat}(\mathbf{X}, \mathbf{Y}_{e}^k) + \lambda \; \underset{k}{\min}\; \mathcal{L}_{rec}(\mathbf{X}, \mathbf{Y}_{e}^k)$$
+</div>
+<div class="h-100 d-flex align-items-center justify-content-center">
+    Regularization relaxation value: <b><span style="margin-left:10px; font-size: 1.2em;" id="k_range_val">k=1</span></b>
+</div>
+<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top:20px">
+    <input type="range" class="form-range" min="0" max="7" step="1" value="0" id="k_range" style="width: 50%">
+</div>
+<div class="card" style="margin-top:20px">
+    <div style="flex-direction: column; justify-content: center; display: inline-flex; align-items: center; margin:10px">
+        <h5 style="max-width:100%; margin-bottom:10px">Human3.6M</h5>
+        <img id="k-h36m" src="/assets/img/belfusion/k_analysis/k_h36m_0.png" width="100%">
+    </div>
+    <div style="margin-top:30px; flex-direction: column; justify-content: center; display: inline-flex; align-items: center; margin:10px">
+        <h5 style="max-width:100%; margin-bottom:10px">AMASS</h5>
+        <img id="k-amass" src="/assets/img/belfusion/k_analysis/k_amass_0.png" width="86%">
+    </div>
+    <p style="margin:10px">Regularization relaxation usually leads to out-of-distribution predictions. This is often solved by employing additional complex techniques like pose priors, or bone-length losses that regularize the other predictions. BeLFusion can dispense with it due to mainly two reasons: 1) Denoising diffusion models are capable of faithfully capturing a greater breadth of the training distribution than GANs or VAEs; 2) The variational training of the behavior coupler makes it more robust to errors in the predicted behavior code.</p>
+</div>
+
+
 <!---------------------------- GIFS ---------------------------->
-<div style="max-width: site.max_project_width" style="margin-top:50px; padding: 0px !important">
+<div style="max-width: site.max_project_width; margin-top:50px; padding: 0px !important">
     <h3 style="text-align: center; margin-bottom:20px">Examples <i>in motion</i></h3>
     <div class="justify-content-center list-group list-group-horizontal" id="list-tab" role="tablist">
         <div class="list-group list-group-horizontal" style="max-width:600px">
@@ -138,7 +167,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
                     </div>
                 </div>
             </div>
-            <div class="col-12" style="padding: 0px !important">
+            <div class="card" style="padding: 10px !important; margin-top:10px">
                 <div class="tab-content figure" id="nav-tabContent">
                     <div class="tab-pane fade show active gif" id="H_4_Sitting" role="tabpanel"><img class="gif" src="/assets/img/belfusion/hmp_videos/H_4_Sitting.gif">Whereas for ‘H_4_Sitting’ BeLFusion’s predicted motions showcase a high variety of arms-related actions, its predictions for sequences where the arms are used in an ongoing action (‘H_402_Smoking’, ‘H_446_Smoking’, and ‘H_541_Phoning’) have a more limited variety of arms motion.</div>
                     <div class="tab-pane fade" id="H_148_WalkDog" role="tabpanel"><img class="gif" src="/assets/img/belfusion/hmp_videos/H_148_WalkDog.gif">None of the models is able to model the high-speed walking movement from the ground truth.</div>
@@ -178,7 +207,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
                     </div>
                 </div>
             </div>
-            <div style="padding: 0px !important">
+            <div class="card" style="padding: 10px !important; margin-top:10px">
                 <div class="tab-content figure" id="nav-tabContent">
                     <div class="tab-pane fade show active gif" id="A_103_Transitions" role="tabpanel"><img class="gif" src="/assets/img/belfusion/hmp_videos/A_103_Transitions.gif">Although the observation window of this sequence clearly showcases a fast rotational dancing step, none of the state-of-theart methods are able to generate a plausible continuation of the observed motion, and all of their predictions abruptly stop rotating. BeLFusion is the only method that generates predictions that slowly decrease its rotational momentum to start performing a different action. </div>
                     <div class="tab-pane fade" id="A_1087_DanceDB" role="tabpanel"><img class="gif" src="/assets/img/belfusion/hmp_videos/A_1087_DanceDB.gif">Similarly to the other state-of-the-art methods, BeLFusion also struggles with modeling high-frequencies.</div>

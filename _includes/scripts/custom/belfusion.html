@@ -5,4 +5,20 @@
                  $(this).parent().parent().find(".selection").html(selText);
         });
     });
+
+    var prev_value = 0;
+    var k_vals = [1, 2, 3, 4, 5, 10, 20, 50]
+    $(document).ready(function() {
+        const $value = $('#k_range');
+        $value.on('input change', () => {
+            if ($value.val() != prev_value) {
+                new_k_val = k_vals[$value.val()]
+                $('#k_range_val').text("k=" + new_k_val);
+                console.log("k=" + new_k_val);
+                $('#k-h36m').attr("src", "/assets/img/belfusion/k_analysis/k_h36m_" + $value.val() + ".png");
+                $('#k-amass').attr("src", "/assets/img/belfusion/k_analysis/k_amass_" + $value.val() + ".png");
+            }
+            prev_value = $value.val();
+        });
+      });
 </script>
