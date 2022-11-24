@@ -52,7 +52,7 @@ navbar_fixed: false
 <div id="accordion" style="margin-top:20px">
   <div class="card">
     <div class="card-header" id="headingOne" style="text-align: center; padding:0px;">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 16px">
+        <button class="btn btn-link dropdown-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 16px">
           Motion consistency as a plausibility requirement
         </button>
     </div>
@@ -72,22 +72,19 @@ navbar_fixed: false
       </div>
     </div>
   </div>
-
-
-
   <div class="card">
     <div class="card-header" id="headingTwo" style="text-align: center; padding:0px">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="text-align: center;" style="font-size: 16px">
+        <button class="btn btn-link collapsed dropdown-toggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="text-align: center;" style="font-size: 16px">
             Contextual coherence as a realism driver
         </button>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">        
+      {% include figure.html path="assets/img/belfusion/samples_superimposed.png" title="APDE" class="figure-padding img-fluid rounded z-depth-1" %}
       <div style="margin-bottom: 20px">Results from prior diversity-centric works often suffer from a tradeoff that has been persistently overlooked: <b>predicted motion looks unnatural when observed following the motion of the immediate past</b>. The strong diversity regularization techniques employed often produce abrupt speed changes or direction discontinuities. We argue that consistency with the immediate past is a requirement for prediction plausibility.
       <br><br>
       Figure below shows the evolution of 10 superimposed predictions along time in two actions from H36M (sitting down, and giving directions), and two datasets from AMASS (DanceDB, and GRAB). First, the acceleration of GSPS and DivSamp at the beginning of the prediction leads to extreme poses very fast, abruptly transitioning from the observed motion. Second, <b>it shows the capacity of BeLFusion to adapt the diversity predicted to the context.</b> For example, the diversity of motion predicted while giving directions focuses on the upper body, and does not include holistic extreme poses. Interestingly, when just sitting, the predictions include a wider range of full-body movements like laying down, or bending over. A similar context fitting is observed in the AMASS cross-dataset scenario. For instance, BeLFusion correctly identifies that the diversity must target the upper body in the GRAB dataset, or the arms while doing a dance step.
         </div>
-      {% include figure.html path="assets/img/belfusion/samples_superimposed.png" title="APDE" class="figure-padding img-fluid rounded z-depth-1" %}
       </div>
     </div>
   </div>
@@ -132,7 +129,9 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
         <h5 style="max-width:100%; margin-bottom:10px">AMASS</h5>
         <img id="k-amass" src="/assets/img/belfusion/k_analysis/k_amass_0.png" width="86%">
     </div>
-    <p style="margin:10px">Regularization relaxation usually leads to out-of-distribution predictions. This is often solved by employing additional complex techniques like pose priors, or bone-length losses that regularize the other predictions. BeLFusion can dispense with it due to mainly two reasons: 1) Denoising diffusion models are capable of faithfully capturing a greater breadth of the training distribution than GANs or VAEs; 2) The variational training of the behavior coupler makes it more robust to errors in the predicted behavior code.</p>
+    <p style="margin:10px">Regularization relaxation usually leads to out-of-distribution predictions. This is often solved by employing additional complex techniques like pose priors, or bone-length losses that regularize the other predictions. BeLFusion can dispense with it due to mainly two reasons: 1) Denoising diffusion models are capable of faithfully capturing a greater breadth of the training distribution than GANs or VAEs; 2) The variational training of the behavior coupler makes it more robust to errors in the predicted behavior code.
+    <br><br>
+    In general, increasing k enhances the samples' diversity, accuracy, and realism. For k < 5, going through the whole chain of denoising steps boosts accuracy. However, for <b>k > 5</b>, further denoising only boosts diversity- and realism-wise metrics (APD, CMD, FID), and <b>makes the fast single-step inference extremely accurate</b>.</p>
 </div>
 
 
@@ -240,7 +239,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
 <div id="accordion" style="margin-top:20px">
   <div class="card">
     <div class="card-header" id="headingOne" style="text-align: center; padding:0px;">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 16px">
+        <button class="btn btn-link dropdown-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 16px">
           Examples of behavioral transference to ongoing motions
         </button>
     </div>
