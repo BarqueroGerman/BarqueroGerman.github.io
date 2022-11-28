@@ -22,7 +22,7 @@ navbar_fixed: false
     </h3>
 <h5>University of Barcelona and Computer Vision Center, Spain</h5>
 <div class="publications project-links">
-    <a href="ARXIV LINK" class="btn" role="button">arXiv</a>
+    <a href="https://arxiv.org/abs/2211.14304" class="btn" role="button">arXiv</a>
     <a href="https://github.com/BarqueroGerman/BeLFusion" class="btn" role="button">Code</a>
 </div>
 </header>
@@ -301,7 +301,12 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
         <h3 style="text-align: center;">BibTeX</h3>
         <div class="bibtex">
         {% highlight bibtex %}
-TO BE UPDATED
+@article{barquero2022belfusion,
+  title={BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction},
+  author={Barquero, German and Escalera, Sergio and Palmero, Cristina},
+  journal={arXiv preprint arXiv:2211.14304},
+  year={2022}
+}
 {% endhighlight %}
 
         </div>
