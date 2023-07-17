@@ -1,12 +1,12 @@
 ---
 ---
 
-@article{barquero2022belfusion,
-  abbr={arXiv},
+@article{barquero2023belfusion,
+  abbr={ICCV'23},
   title={BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction},
   author={Barquero, German and Escalera, Sergio and Palmero, Cristina},
-  journal={arXiv preprint arXiv:2211.14304},
-  year={2022},
+  journal={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2023},
   html={https://barquerogerman.github.io/BeLFusion/},
   abstract={Stochastic human motion prediction (HMP) has generally been tackled with generative adversarial networks and variational autoencoders. Most prior works aim at predicting highly diverse movements in terms of the skeleton joints' dispersion. This has led to methods predicting fast and motion-divergent movements, which are often unrealistic and incoherent with past motion. Such methods also neglect contexts that need to anticipate diverse low-range behaviors, or actions, with subtle joint displacements. To address these issues, we present BeLFusion, a model that, for the first time, leverages latent diffusion models in HMP to sample from a latent space where behavior is disentangled from pose and motion. As a result, diversity is encouraged from a behavioral perspective. Thanks to our behavior coupler's ability to transfer sampled behavior to ongoing motion, BeLFusion's predictions display a variety of behaviors that are significantly more realistic than the state of the art. To support it, we introduce two metrics, the Area of the Cumulative Motion Distribution, and the Average Pairwise Distance Error, which are correlated to our definition of realism according to a qualitative study with 126 participants. Finally, we prove BeLFusion's generalization power in a new cross-dataset scenario for stochastic HMP.}
 }
@@ -64,28 +64,6 @@
   abstract={Most current multi-object trackers focus on short-term tracking, and are based on deep and complex systems that often cannot operate in real-time, making them impractical for video-surveillance. In this paper we present a long-term, multi-face tracking architecture conceived for working in crowded contexts where faces are often the only visible part of a person. Our system benefits from advances in the fields of face detection and face recognition to achieve long-term tracking, and is particularly unconstrained to the motion and occlusions of people. It follows a tracking-by-detection approach, combining a fast short-term visual tracker with a novel online tracklet reconnection strategy grounded on rank-based face verification. The proposed rank-based constraint favours higher inter-class distance among tracklets, and reduces the propagation of errors due to wrong reconnections. Additionally, a correction module is included to correct past assignments with no extra computational cost. We present a series of experiments introducing novel specialized metrics for the evaluation of long-term tracking capabilities, and publicly release a video dataset with 10 manually annotated videos and a total length of 8' 54". Our findings validate the robustness of each of the proposed modules, and demonstrate that, in these challenging contexts, our approach yields up to 50% longer tracks than state-of-the-art deep learning trackers.}
 }
 
-@article{la2021mprage,
-  abbr={Comp. BioMed},
-  title={MPRAGE to MP2RAGE UNI translation via generative adversarial network improves the automatic tissue and lesion segmentation in multiple sclerosis patients},
-  author={La Rosa, F. and Yu, T. and Barquero, G. and Thiran, J. P. and Granziera, C. and {Bach Cuadra}, M.},
-  journal={Computers in biology and medicine},
-  volume={132},
-  pages={104297},
-  year={2021},
-  publisher={Elsevier},
-  html={https://www.sciencedirect.com/science/article/pii/S0010482521000913},
-  pdf={2021_mp2rage_gan.pdf},
-  abstract={
-    <b>Background and objective</b><br>
-    Compared to the conventional magnetization-prepared rapid gradient-echo imaging (MPRAGE) MRI sequence, the specialized magnetization prepared 2 rapid acquisition gradient echoes (MP2RAGE) shows a higher brain tissue and lesion contrast in multiple sclerosis (MS) patients. The goal of this work is to retrospectively generate realistic-looking MP2RAGE uniform images (UNI) from already acquired MPRAGE images in order to improve the automatic lesion and tissue segmentation.
-    <br><b>Methods</b><br>
-    For this task we propose a generative adversarial network (GAN). Multi-contrast MRI data of 12 healthy controls and 44 patients diagnosed with MS was retrospectively analyzed. Imaging was acquired at 3T using a SIEMENS scanner with MPRAGE, MP2RAGE, FLAIR, and DIR sequences. We train the GAN with both healthy controls and MS patients to generate synthetic MP2RAGE UNI images. These images were then compared to the real MP2RAGE UNI (considered as ground truth) analyzing the output of automatic brain tissue and lesion segmentation tools. Reference-based metrics as well as the lesion-wise true and false positives, Dice coefficient, and volume difference were considered for the evaluation. Statistical differences were assessed with the Wilcoxon signed-rank test.
-    <br><b>Results</b><br>
-    The synthetic MP2RAGE UNI significantly improves the lesion and tissue segmentation masks in terms of Dice coefficient and volume difference (p-values < 0.001) compared to the MPRAGE. For the segmentation metrics analyzed no statistically significant differences are found between the synthetic and acquired MP2RAGE UNI.
-    <br><b>Conclusion</b><br>
-    Synthesized MP2RAGE UNI images are visually realistic and improve the output of automatic segmentation tools.
-  }
-}
 
 @article{barquero2020rimnet,
   abbr={NeuroImage},
