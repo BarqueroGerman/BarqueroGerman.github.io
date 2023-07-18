@@ -3,7 +3,7 @@ layout: standalone_project
 title: BeLFusion&#58; Latent Diffusion for Behavior-Driven Human Motion Prediction
 permalink: /BeLFusion/
 description: Latent Diffusion for Behavior-Driven Human Motion Prediction
-venue:
+venue: ICCV 2023
 horizontal: false
 nav: false
 navbar_fixed: false
@@ -301,11 +301,11 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
         <h3 style="text-align: center;">BibTeX</h3>
         <div class="bibtex">
         {% highlight bibtex %}
-@article{barquero2022belfusion,
+@article{barquero2023belfusion,
   title={BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction},
   author={Barquero, German and Escalera, Sergio and Palmero, Cristina},
-  journal={arXiv preprint arXiv:2211.14304},
-  year={2022}
+  journal={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2023}
 }
 {% endhighlight %}
 
