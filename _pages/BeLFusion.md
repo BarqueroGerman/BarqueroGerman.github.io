@@ -301,10 +301,10 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
         <h3 style="text-align: center;">BibTeX</h3>
         <div class="bibtex">
         {% highlight bibtex %}
-@article{barquero2023belfusion,
+@inproceedings{barquero2023belfusion,
   title={BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction},
   author={Barquero, German and Escalera, Sergio and Palmero, Cristina},
-  journal={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2023}
 }
 {% endhighlight %}
