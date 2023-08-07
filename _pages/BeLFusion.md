@@ -14,7 +14,7 @@ navbar_fixed: false
 <!---------------------------- HEADER ---------------------------->
 <header class="project-title" style="text-align: center; ">
 <h1 class="project-title" style="font-weight: bold; color: #404040">{{ page.title }}</h1>
-<p class="project-venue">{{ page.venue }}</p>
+<p class="project-venue" style="font-size: 2.5em;">{{ page.venue }}</p>
     <h3>
                     <a href="https://scholar.google.com/citations?user=pRC8DwcAAAAJ&hl=en">German Barquero</a>, 
                     <a href="https://scholar.google.com/citations?user=oI6AIkMAAAAJ&hl=en&oi=ao">Sergio Escalera</a>, and 
