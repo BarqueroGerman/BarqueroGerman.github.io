@@ -22,6 +22,7 @@ navbar_fixed: false
     </h3>
 <h5>University of Barcelona and Computer Vision Center, Spain</h5>
 <div class="publications project-links">
+    <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Barquero_BeLFusion_Latent_Diffusion_for_Behavior-Driven_Human_Motion_Prediction_ICCV_2023_paper.html" class="btn" role="button">Paper</a>
     <a href="https://arxiv.org/abs/2211.14304" class="btn" role="button">arXiv</a>
     <a href="https://github.com/BarqueroGerman/BeLFusion" class="btn" role="button">Code</a>
 </div>
