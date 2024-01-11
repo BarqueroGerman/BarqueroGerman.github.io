@@ -31,7 +31,7 @@ navbar_fixed: false
 </div>
 
 <!---------------------------- ABSTRACT ---------------------------->
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="abstract" style="text-align: justify;">
     <h3 style="text-align: center;">Abstract</h3>
     <i>
@@ -41,7 +41,7 @@ navbar_fixed: false
 </div>
 
 <!---------------------------- MOTIVATION ---------------------------->
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="motivations" style="text-align: justify;">
     <h3 style="text-align: center;">Motivations</h3>
     </div>
@@ -89,7 +89,7 @@ navbar_fixed: false
 </div>
 
 <!---------------------------- ARCHITECTURE ---------------------------->
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="architecture" style="text-align: justify;">
         <h3 style="text-align: center;">Architecture</h3>
     </div>
@@ -101,18 +101,18 @@ navbar_fixed: false
 A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, $$\mathbf{X}$$, progressively denoises a sample from a zero-mean unit variance multivariate normal distribution into a behavior code. Then, the behavior coupler $$\mathcal{B}_{\phi}$$ decodes the prediction by transferring the sampled behavior to the target motion, $$\mathbf{x}_{m}$$. In our implementation, $$f_{\Phi}$$ is a conditional U-Net with cross-attention, and $$h_{\lambda}$$, $$g_{\alpha}$$, and $$\mathcal{B}_{\phi}$$ are one-layer recurrent neural networks.
 
 <!---------------------------- RANGE K ---------------------------->
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="architecture" style="text-align: justify;">
         <h3 style="text-align: center;">Implicit diversity loss</h3>
     </div>
 </div>
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top:5px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top:5px">
     $$\underset{k}{\min}\; \mathcal{L}_{lat}(\mathbf{X}, \mathbf{Y}_{e}^k) + \lambda \; \underset{k}{\min}\; \mathcal{L}_{rec}(\mathbf{X}, \mathbf{Y}_{e}^k)$$
 </div>
-<div class="h-100 d-flex align-items-center justify-content-center">
+<div class="d-flex align-items-center justify-content-center">
     Regularization relaxation value: <b><span style="margin-left:10px; font-size: 1.2em;" id="k_range_val">k=1</span></b>
 </div>
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top:20px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top:20px">
     <input type="range" class="form-range" min="0" max="7" step="1" value="0" id="k_range" style="width: 50%">
 </div>
 <div class="card" style="margin-top:20px">
@@ -140,7 +140,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
     </div>
     <div class="tab-content figure" id="nav-tabContent" style="margin-top:20px" style="padding: 0px !important">
         <div class="tab-pane fade show active" id="h36m" role="tabpanel" aria-labelledby="h36m-list" style="padding: 0px !important">
-            <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center">
                 <div class="dropdown list-group">
                     <button class="btn dropdown-toggle" style="max-width:600px" type="button" id="h36m-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="selection">H_4_Sitting</span>
@@ -177,7 +177,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
             </div>
         </div>
         <div class="tab-pane fade" id="amass" role="tabpanel" aria-labelledby="amass-list" style="padding: 0px !important">
-            <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center">
                 <div class="dropdown list-group">
                     <button class="btn dropdown-toggle" style="max-width:600px" type="button" id="amass-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="selection">A_103_Transitions</span>
@@ -223,7 +223,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
 </div>
 
 <!---------------------------- BEHAVIORAL TRANSFERENCE ---------------------------->
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="others" style="text-align: justify;">
     <h3 style="text-align: center;">Others</h3>
     </div>
@@ -289,7 +289,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
 
 <!---------------------------- BIBLIOGRAPHY ---------------------------->
 
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="bibtex" style="text-align: justify;">
         <h3 style="text-align: center;">BibTeX</h3>
         <div class="bibtex">
