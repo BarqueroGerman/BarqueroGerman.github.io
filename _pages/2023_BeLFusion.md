@@ -132,10 +132,10 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
 <!---------------------------- GIFS ---------------------------->
 <div style="max-width: site.max_project_width; margin-top:50px; padding: 0px !important">
     <h3 style="text-align: center; margin-bottom:20px">Examples <i>in motion</i></h3>
-    <div class="justify-content-center list-group list-group-horizontal" id="list-tab" role="tablist">
-        <div class="list-group list-group-horizontal" style="max-width:600px">
-        <a class="list-group-item list-group-item-action active" id="h36m-list" data-toggle="list" href="#h36m" role="tab" aria-controls="h36m" style="text-align: center;">Human3.6M</a>
-        <a class="list-group-item list-group-item-action" id="amass-list" data-toggle="list" href="#amass" role="tab" aria-controls="amass" style="text-align: center;">AMASS</a>
+    <div class="d-flex justify-content-center" id="list-tab" role="tablist">
+        <div class="list-group list-group-horizontal" style="display: flex; max-width: 600px;">
+            <a class="list-group-item list-group-item-action active" id="h36m-list" data-toggle="list" href="#h36m" role="tab" aria-controls="h36m" style="flex: 1; text-align: center;">Human3.6M</a>
+            <a class="list-group-item list-group-item-action" id="amass-list" data-toggle="list" href="#amass" role="tab" aria-controls="amass" style="flex: 1; text-align: center;">AMASS</a>
         </div>
     </div>
     <div class="tab-content figure" id="nav-tabContent" style="margin-top:20px" style="padding: 0px !important">
@@ -221,7 +221,6 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
         </div>
     </div>
 </div>
-
 <!---------------------------- BEHAVIORAL TRANSFERENCE ---------------------------->
 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="others" style="text-align: justify;">
@@ -238,10 +237,10 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
     </div>
     <div id="collapse-behavior-content" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
         <div style="max-width: site.max_project_width" style="margin-top:10px; padding: 0px !important">
-            <div class="justify-content-center list-group list-group-horizontal" id="list-tab" role="tablist">
-                <div class="list-group list-group-horizontal" style="max-width:600px">
-                <a class="list-group-item list-group-item-action active" id="h36m_b-list" data-toggle="list" href="#h36m_b" role="tab" aria-controls="h36m_b" style="text-align: center;">Human3.6M</a>
-                <a class="list-group-item list-group-item-action" id="amass_b-list" data-toggle="list" href="#amass_b" role="tab" aria-controls="amass_b" style="text-align: center;">AMASS</a>
+            <div class="d-flex justify-content-center" id="list-tab" role="tablist">
+                <div class="list-group list-group-horizontal" style="max-width: 600px; display: flex;">
+                    <a class="list-group-item list-group-item-action active" id="h36m_b-list" data-toggle="list" href="#h36m_b" role="tab" aria-controls="h36m_b" style="flex: 1; text-align: center;">Human3.6M</a>
+                    <a class="list-group-item list-group-item-action" id="amass_b-list" data-toggle="list" href="#amass_b" role="tab" aria-controls="amass_b" style="flex: 1; text-align: center;">AMASS</a>
                 </div>
             </div>
             <div class="col-12 tab-content figure" id="nav-tabContent" style="margin-top:20px">
