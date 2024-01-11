@@ -27,7 +27,7 @@ navbar_fixed: false
 </header>
 
 <div style="margin-top:20px">
-{% include figure.html path="assets/img/belfusion/intro.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/belfusion/intro.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
 </div>
 
 <!---------------------------- ABSTRACT ---------------------------->
@@ -58,7 +58,7 @@ navbar_fixed: false
       <div class="card-body">
         <div class="row">
             <div class="col-5">
-            {% include figure.html path="assets/img/belfusion/motion_metric.png" title="Motion" class="figure-padding img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/belfusion/motion_metric.png" title="Motion" class="figure-padding img-fluid rounded z-depth-1" %}
             </div>
             <div class="col-7" style="text-align: justify;">
             Most prior stochastic works focus on predicting a highly diverse distribution of motions. Such diversity has been traditionally defined and evaluated in the coordinate space. This definition biases research toward models that generate <b>fast and motion-divergent motions</b> (see Fig. in the left). Although there are scenarios where predicting low-speed diverse motion is important, this is discouraged by prior techniques. For example, in assistive robotics, anticipating behaviors (i.e., actions) like whether the interlocutor is about to shake your hand or scratch their head might be crucial for preparing the robot’s actuators on time. In a surveillance scenario, a foreseen noxious behavior might not differ much from a well-meaning one when considering only the poses along the motion sequence. We argue that this behavioral perspective is paramount to build next-generation stochastic HMP models. 
@@ -78,7 +78,7 @@ navbar_fixed: false
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">        
-      {% include figure.html path="assets/img/belfusion/samples_superimposed.png" title="APDE" class="figure-padding img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/belfusion/samples_superimposed.png" title="APDE" class="figure-padding img-fluid rounded z-depth-1" %}
       <div style="margin-bottom: 20px">Results from prior diversity-centric works often suffer from a tradeoff that has been persistently overlooked: <b>predicted motion looks unnatural when observed following the motion of the immediate past</b>. The strong diversity regularization techniques employed often produce abrupt speed changes or direction discontinuities. We argue that consistency with the immediate past is a requirement for prediction plausibility.
       <br><br>
       Figure below shows the evolution of 10 superimposed predictions along time in two actions from H36M (sitting down, and giving directions), and two datasets from AMASS (DanceDB, and GRAB). First, the acceleration of GSPS and DivSamp at the beginning of the prediction leads to extreme poses very fast, abruptly transitioning from the observed motion. Second, <b>it shows the capacity of BeLFusion to adapt the diversity predicted to the context.</b> For example, the diversity of motion predicted while giving directions focuses on the upper body, and does not include holistic extreme poses. Interestingly, when just sitting, the predictions include a wider range of full-body movements like laying down, or bending over. A similar context fitting is observed in the AMASS cross-dataset scenario. For instance, BeLFusion correctly identifies that the diversity must target the upper body in the GRAB dataset, or the arms while doing a dance step.
@@ -95,7 +95,7 @@ navbar_fixed: false
     </div>
 </div>
 <div style="margin-top:20px">
-{% include figure.html path="assets/img/belfusion/arch.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/belfusion/arch.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
 </div>
 
 A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, $$\mathbf{X}$$, progressively denoises a sample from a zero-mean unit variance multivariate normal distribution into a behavior code. Then, the behavior coupler $$\mathcal{B}_{\phi}$$ decodes the prediction by transferring the sampled behavior to the target motion, $$\mathbf{x}_{m}$$. In our implementation, $$f_{\Phi}$$ is a conditional U-Net with cross-attention, and $$h_{\lambda}$$, $$g_{\alpha}$$, and $$\mathcal{B}_{\phi}$$ are one-layer recurrent neural networks.

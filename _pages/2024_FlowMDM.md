@@ -27,7 +27,7 @@ navbar_fixed: false
 </header>
 
 <!--div style="margin-top:20px">
-{% include figure.html path="assets/img/belfusion/intro.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/belfusion/intro.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
 </div-->
 
 <!---------------------------- BIBLIOGRAPHY ---------------------------->
