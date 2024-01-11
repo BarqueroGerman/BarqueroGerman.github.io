@@ -2,9 +2,9 @@
 layout: page
 title: projects
 nav: true
-nav_order: 8
+nav_order: 2
 dropdown: true
 children:
-  - title: BeLFusion
+  - title: BeLFusion (ICCV'23)
     permalink: /BeLFusion/
 ---
