@@ -3,7 +3,7 @@ layout: standalone_project
 title: FlowMDM&#58; Seamless Human Motion Composition with Blended Positional Encodings
 permalink: /FlowMDM/
 description: Seamless Human Motion Composition with Blended Positional Encodings
-venue: arXiv
+venue: 
 horizontal: false
 nav: false
 navbar_fixed: false
@@ -30,15 +30,6 @@ navbar_fixed: false
 {% include figure.html path="assets/img/belfusion/intro.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
 </div-->
 
-<!---------------------------- ABSTRACT ---------------------------->
-<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
-    <div class="project-narrow" id="abstract" style="text-align: justify;">
-    <h3 style="text-align: center;">Abstract</h3>
-    <!--i>
-    Stochastic human motion prediction (HMP) has generally been tackled with generative adversarial networks and variational autoencoders. Most prior works aim at predicting highly diverse movements in terms of the skeleton joints’ dispersion. This has led to methods predicting fast and motion-divergent movements, which are often unrealistic and incoherent with past motion. Such methods also neglect contexts that need to anticipate diverse low-range behaviors, or actions, with subtle joint displacements. To address these issues, we present BeLFusion, a model that, for the first time, leverages latent diffusion models in HMP to sample from a latent space where behavior is disentangled from pose and motion. As a result, diversity is encouraged from a behavioral perspective. Thanks to our behavior coupler’s ability to transfer sampled behavior to ongoing motion, BeLFusion’s predictions display a variety of behaviors that are significantly more realistic than the state of the art. To support it, we introduce two metrics, the Area of the Cumulative Motion Distribution, and the Average Pairwise Distance Error, which are correlated to our definition of realism according to a qualitative study with 126 participants. Finally, we prove BeLFusion’s generalization power in a new cross-dataset scenario for stochastic HMP.
-    </i-->
-    </div>
-</div>
 
 <!---------------------------- BIBLIOGRAPHY ---------------------------->
 
