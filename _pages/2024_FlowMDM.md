@@ -3,7 +3,7 @@ layout: standalone_project
 title: FlowMDM&#58; Seamless Human Motion Composition with Blended Positional Encodings
 permalink: /FlowMDM/
 description: Seamless Human Motion Composition with Blended Positional Encodings
-venue: 
+venue:
 horizontal: false
 nav: false
 navbar_fixed: false
@@ -30,7 +30,6 @@ navbar_fixed: false
 {% include figure.html path="assets/img/belfusion/intro.png" title="BeLFusion" class="figure-padding img-fluid rounded z-depth-1" %}
 </div-->
 
-
 <!---------------------------- BIBLIOGRAPHY ---------------------------->
 
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
@@ -48,4 +47,5 @@ navbar_fixed: false
 
         </div>
     </div>
+
 </div>

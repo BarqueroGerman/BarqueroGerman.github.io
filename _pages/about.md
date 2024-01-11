@@ -10,9 +10,9 @@ profile:
   address: >
     <p>Mon amie la vache et moi dans les Alpes suisses.</p>
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am German Barquero, a PhD student at [Universitat de Barcelona](https://www.ub.edu/), advised by Prof. [Sergio Escalera](https://scholar.google.com/citations?user=oI6AIkMAAAAJ). My main interests lie in the intersection between human behavior understanding and generative AI. There, my recent contributions have focused on pushing the state of the art on conditional human motion synthesis.

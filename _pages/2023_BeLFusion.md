@@ -9,8 +9,6 @@ nav: false
 navbar_fixed: false
 ---
 
-
-
 <!---------------------------- HEADER ---------------------------->
 <header class="project-title" style="text-align: center; ">
 <h1 class="project-title" style="font-weight: bold; color: #404040">{{ page.title }}</h1>
@@ -48,7 +46,6 @@ navbar_fixed: false
     <h3 style="text-align: center;">Motivations</h3>
     </div>
 </div>
-
 
 <div id="accordion" style="margin-top:20px">
   <div class="card">
@@ -91,7 +88,6 @@ navbar_fixed: false
   </div>
 </div>
 
-
 <!---------------------------- ARCHITECTURE ---------------------------->
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="architecture" style="text-align: justify;">
@@ -103,8 +99,6 @@ navbar_fixed: false
 </div>
 
 A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, $$\mathbf{X}$$, progressively denoises a sample from a zero-mean unit variance multivariate normal distribution into a behavior code. Then, the behavior coupler $$\mathcal{B}_{\phi}$$ decodes the prediction by transferring the sampled behavior to the target motion, $$\mathbf{x}_{m}$$. In our implementation, $$f_{\Phi}$$ is a conditional U-Net with cross-attention, and $$h_{\lambda}$$, $$g_{\alpha}$$, and $$\mathcal{B}_{\phi}$$ are one-layer recurrent neural networks.
-
-
 
 <!---------------------------- RANGE K ---------------------------->
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
@@ -134,7 +128,6 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
     <br><br>
     In general, increasing k enhances the samples' diversity, accuracy, and realism. For k < 5, going through the whole chain of denoising steps boosts accuracy. However, for <b>k > 5</b>, further denoising only boosts diversity- and realism-wise metrics (APD, CMD, FID), and <b>makes the fast single-step inference extremely accurate</b>.</p>
 </div>
-
 
 <!---------------------------- GIFS ---------------------------->
 <div style="max-width: site.max_project_width; margin-top:50px; padding: 0px !important">
@@ -228,7 +221,6 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
         </div>
     </div>
 </div>
-        
 
 <!---------------------------- BEHAVIORAL TRANSFERENCE ---------------------------->
 <div class="h-100 d-flex align-items-center justify-content-center" style="margin-top: 30px">
@@ -312,7 +304,7 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
 
         </div>
     </div>
-</div>
 
+</div>
 
 <img data-src="/assets/img/belfusion/apde.png" class="lazy">
