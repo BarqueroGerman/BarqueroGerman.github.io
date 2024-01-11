@@ -1,0 +1,30 @@
+---
+layout: parse
+---
+<!-- standalone_project.html -->
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {%- if page.redirect -%}
+      <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/">
+    {%- endif -%}
+    {% include head.liquid %}
+  </head>
+
+  <!-- Body -->
+  <body class="">
+    <!-- Content -->
+    <div class="container project_container mt-5">
+      <div class="post">{{ content }}</div>
+    </div>
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.liquid %}
+    {% include scripts/bootstrap.liquid %}
+    {% include scripts/masonry.liquid %}
+    {% include scripts/misc.liquid %}
+    {% include scripts/mathjax.liquid %}
+    {% include scripts/analytics.liquid %}
+    {% include scripts/custom/belfusion.html %}
+  </body>
+</html>
