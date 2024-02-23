@@ -9,8 +9,9 @@ nav: false
 navbar_fixed: false
 ---
 
+
 <!---------------------------- HEADER ---------------------------->
-<header class="project-title" style="text-align: center; ">
+<header class="project-title" style="text-align: center; margin-top: 2em">
 <h1 class="project-title" style="font-weight: bold; color: #404040">{{ page.title }}</h1>
 <p class="project-venue" style="font-size: 2.5em;">{{ page.venue }}</p>
     <h3>
@@ -43,7 +44,7 @@ navbar_fixed: false
 <!---------------------------- MOTIVATION ---------------------------->
 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="motivations" style="text-align: justify;">
-    <h3 style="text-align: center;">Motivations</h3>
+    <h3 style="text-align: center;">Motivation</h3>
     </div>
 </div>
 
@@ -307,3 +308,5 @@ A latent diffusion model conditioned on an encoding $$x=c$$ of the observation, 
 </div>
 
 <img data-src="/assets/img/belfusion/apde.png" class="lazy">
+
+

@@ -9,10 +9,43 @@ layout: parse
       <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/">
     {%- endif -%}
     {% include head.liquid %}
+
+    
   </head>
 
   <!-- Body -->
   <body class="">
+
+    <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <span class="icon">
+                <i class="fas fa-home"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More Research
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/BeLFusion/">
+                BeLFusion (ICCV'23)
+              </a>
+              <a class="dropdown-item" href="/FlowMDM/">
+                FlowMDM (arXiv'24)
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- Content -->
     <div class="container project_container mt-5">
       <div class="post">{{ content }}</div>
