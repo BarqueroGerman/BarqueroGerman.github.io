@@ -64,14 +64,14 @@ navbar_fixed: false
             <li data-target="#carouselCompositions" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">{% include video.liquid path="assets/video/flowmdm/babel_compo_6A.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
+            <div class="carousel-item active">{% include video.liquid path="assets/video/flowmdm/babel_compo_CA.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
             <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_6B.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
-            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CA.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
-            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CB.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
-            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CC.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
             <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CD.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
-            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CE.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
+            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CC.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
             <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CF.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
+            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_6A.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
+            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CE.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
+            <div class="carousel-item">{% include video.liquid path="assets/video/flowmdm/babel_compo_CB.mp4" class="img-fluid rounded" controls=true  autoplay=true muted=true loop=true width="100%" %}</div>
         </div>
         <button class="carousel-control-prev" type="button" data-target="#carouselCompositions" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
