@@ -33,6 +33,15 @@ navbar_fixed: false
 </div>
 
 
+<!---------------------------- DEMO ---------------------------->
+<div class="d-flex align-items-center justify-content-center" style="margin-top: 30px; margin-bottom: 20px">
+    <div class="project-narrow" id="demo" style="text-align: justify;">
+    <h3 style="text-align: center;">🔥 Demo</h3>
+    {% include video.liquid path="assets/video/flowmdm/demo_flowmdm.mp4" class="img-fluid rounded" controls=true  autoplay=false muted=true loop=false width="100%" %}
+    </div>
+</div>
+
+
 <!---------------------------- ABSTRACT ---------------------------->
 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
     <div class="project-narrow" id="abstract" style="text-align: justify;">
