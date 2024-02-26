@@ -23,7 +23,7 @@ navbar_fixed: false
     </h3>
 <h5>University of Barcelona and Computer Vision Center, Spain</h5>
 <div class="publications project-links">
-    <a href="" class="btn" role="button">arXiv</a>
+    <a href="https://arxiv.org/abs/2402.15509" class="btn" role="button">arXiv</a>
     <a href="https://github.com/BarqueroGerman/FlowMDM" class="btn" role="button">Code</a>
 </div>
 </header>
@@ -212,10 +212,10 @@ navbar_fixed: false
         <h3 style="text-align: center;">🔗 BibTeX</h3>
         <div class="bibtex">
         {% highlight bibtex %}
-@inproceedings{barquero2024seamless,
+@article{barquero2024seamless,
   title={Seamless Human Motion Composition with Blended Positional Encodings},
   author={Barquero, German and Escalera, Sergio and Palmero, Cristina},
-  booktitle={arXiv},
+  journal={arXiv preprint arXiv:2402.15509},
   year={2024}
 }
 {% endhighlight %}
