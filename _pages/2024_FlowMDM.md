@@ -23,8 +23,8 @@ navbar_fixed: false
     </h3>
 <h5>University of Barcelona and Computer Vision Center, Spain</h5>
 <div class="publications project-links">
-    <a href="https://arxiv.org/abs/2402.15509" class="btn" role="button">arXiv</a>
-    <a href="https://github.com/BarqueroGerman/FlowMDM" class="btn" role="button">Code</a>
+    <a href="https://arxiv.org/abs/2402.15509" class="btn" role="button" target="_blank">arXiv</a>
+    <a href="https://github.com/BarqueroGerman/FlowMDM" class="btn" role="button" target="_blank">Code</a>
 </div>
 </header>
 
