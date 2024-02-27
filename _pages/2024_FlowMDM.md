@@ -15,7 +15,7 @@ navbar_fixed: false
 <h1 class="project-title title" style="font-weight: bold;">
     <span class="gradient-text" style="background: linear-gradient(90deg, #ff0000, 15%, #00a1ff, 60%, #00D70C); -webkit-background-clip: text; color: transparent; font-size: 2.5rem">{{ page.title }}</span> 
   </h1>
-<p class="project-venue" style="font-size: 2.5em;">{{ page.venue }}</p>
+<p class="project-venue" style="font-size: 2em;">{{ page.venue }}</p>
     <h3>
                     <a href="https://scholar.google.com/citations?user=pRC8DwcAAAAJ&hl=en">German Barquero</a>, 
                     <a href="https://scholar.google.com/citations?user=oI6AIkMAAAAJ&hl=en&oi=ao">Sergio Escalera</a>, and 
