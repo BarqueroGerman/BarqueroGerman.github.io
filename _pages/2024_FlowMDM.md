@@ -3,7 +3,7 @@ layout: standalone_project
 title: FlowMDM&#58; Seamless Human Motion Composition with<br>Blended Positional Encodings
 permalink: /FlowMDM/
 description: FlowMDM
-venue: arXiv 2024
+venue: CVPR 2024
 horizontal: false
 nav: false
 navbar_fixed: false
@@ -15,7 +15,7 @@ navbar_fixed: false
 <h1 class="project-title title" style="font-weight: bold;">
     <span class="gradient-text" style="background: linear-gradient(90deg, #ff0000, 15%, #00a1ff, 60%, #00D70C); -webkit-background-clip: text; color: transparent; font-size: 2.5rem">{{ page.title }}</span> 
   </h1>
-<p class="project-venue" style="font-size: 1.5em;">{{ page.venue }}</p>
+<p class="project-venue" style="font-size: 2.5em;">{{ page.venue }}</p>
     <h3>
                     <a href="https://scholar.google.com/citations?user=pRC8DwcAAAAJ&hl=en">German Barquero</a>, 
                     <a href="https://scholar.google.com/citations?user=oI6AIkMAAAAJ&hl=en&oi=ao">Sergio Escalera</a>, and 
@@ -215,7 +215,7 @@ navbar_fixed: false
 @article{barquero2024seamless,
   title={Seamless Human Motion Composition with Blended Positional Encodings},
   author={Barquero, German and Escalera, Sergio and Palmero, Cristina},
-  journal={arXiv preprint arXiv:2402.15509},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2024}
 }
 {% endhighlight %}
