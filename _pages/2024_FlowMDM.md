@@ -25,6 +25,7 @@ navbar_fixed: false
 <div class="publications project-links">
     <a href="https://arxiv.org/abs/2402.15509" class="btn" role="button" target="_blank">arXiv</a>
     <a href="https://github.com/BarqueroGerman/FlowMDM" class="btn" role="button" target="_blank">Code</a>
+    <a href="https://drive.google.com/drive/folders/1NPs7YreoDkM7S5VXsGb1NJoPIGf8n2CR" class="btn" role="button" target="_blank">Supp. Mat.</a>
 </div>
 </header>
 
