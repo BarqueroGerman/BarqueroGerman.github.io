@@ -165,7 +165,7 @@ navbar_fixed: false
   <div class="card">
     <div class="card-header" id="headingOne" style="text-align: center; padding:0px;">
         <button class="btn btn-link dropdown-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 16px">
-            #2 - Pose-centric cross-attention (PCCATT)
+            #2 - Pose-centric cross-attention (PCCAT)
         </button>
     </div>
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -175,9 +175,9 @@ navbar_fixed: false
             {% include figure.liquid path="assets/img/flowmdm/arch.png" title="Motion" class="figure-padding img-fluid rounded" %}
             </div>
             <div class="col-5" style="text-align: justify;">
-                The PCCATT minimizes the entanglement between the control signal (e.g., text, objects) and the noisy motion by feeding the former only to the query. Consequently, our model denoises each frame’s noisy pose only leveraging its own condition, and the neighboring noisy poses.
+                The PCCAT minimizes the entanglement between the control signal (e.g., text, objects) and the noisy motion by feeding the former only to the query. Consequently, our model denoises each frame’s noisy pose only leveraging its own condition, and the neighboring noisy poses.
                 <br><br>
-                <b><u>Consequence</u></b>: the PCCATT makes our model robust against varying text descriptions at inference time, and it excels when trained with only a single description per motion sequence. → FlowMDM can be applied to <b>both supervised and unsupervised</b> human motion composition scenarios.
+                <b><u>Consequence</u></b>: the PCCAT makes our model robust against varying text descriptions at inference time, and it excels when trained with only a single description per motion sequence. → FlowMDM can be applied to <b>both supervised and unsupervised</b> human motion composition scenarios.
             </div>
         </div>
       </div>
