@@ -23,6 +23,7 @@ navbar_fixed: false
     </h3>
 <h5>University of Barcelona and Computer Vision Center, Spain</h5>
 <div class="publications project-links">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Barquero_Seamless_Human_Motion_Composition_with_Blended_Positional_Encodings_CVPR_2024_paper.html" class="btn" role="button">Paper</a>
     <a href="https://arxiv.org/abs/2402.15509" class="btn" role="button" target="_blank">arXiv</a>
     <a href="https://github.com/BarqueroGerman/FlowMDM" class="btn" role="button" target="_blank">Code</a>
     <a href="https://drive.google.com/drive/folders/1NPs7YreoDkM7S5VXsGb1NJoPIGf8n2CR" class="btn" role="button" target="_blank">Supp. Mat.</a>
